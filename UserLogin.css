@@ -1,0 +1,60 @@
+.user-login-container {
+  max-width: 400px;
+  margin: 40px auto;
+  padding: 24px;
+  background: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+.user-login-form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.user-login-form input {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+.button-group {
+  display: flex;
+  gap: 8px;
+  margin-top: 8px;
+}
+.button-group button {
+  flex: 1;
+  padding: 8px;
+  background: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 15px;
+  transition: background 0.2s;
+}
+.button-group button:disabled {
+  background: #aaa;
+  cursor: not-allowed;
+}
+.loading {
+  color: #007bff;
+  margin-top: 12px;
+}
+.response {
+  background: #e6ffe6;
+  border: 1px solid #b2ffb2;
+  padding: 10px;
+  margin-top: 12px;
+  border-radius: 4px;
+  font-size: 14px;
+}
+.error {
+  background: #ffe6e6;
+  border: 1px solid #ffb2b2;
+  padding: 10px;
+  margin-top: 12px;
+  border-radius: 4px;
+  color: #d8000c;
+  font-size: 14px;
+}
