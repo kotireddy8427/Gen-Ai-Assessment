@@ -1,0 +1,30 @@
+1. RESTful API Generation
+Use Case: Create a RESTful API login controller/Screen for a user login entity in a web application.
+
+Prompts:
+backend nodejs+express
+1.Write a Node.js (Express) RESTful API for a "User Login" entity with complete CRUD functionality:
+Endpoints: GET /users (fetch all), GET /users/:id (fetch one), POST /users (create), PUT /users/:id (update), DELETE /users/:id (delete)
+For POST and PUT, include input validation for required fields: username, password, and email (email format check).
+Password should be securely hashed using bcrypt before storing.
+Use proper HTTP status codes (200, 201, 400, 401, 404, 500) with descriptive JSON responses.
+Implement error handling middleware for unexpected errors.
+Use appropriate HTTP method annotations in code comments.
+Follow clean architecture and modular structure: routes, controllers, services.
+Include sample test data in an in-memory array or temporary database (e.g., SQLite or MongoDB mock).
+Add comments explaining each part of the code for clarity.
+
+front end react
+2. Create a React functional component for a "User Login" screen with:
+A form containing username and password input fields.
+CRUD operation buttons: GET (fetch users), POST (login/create user), PUT (update user), DELETE (delete user).
+Each button should call the corresponding REST API endpoint from the backend.
+Use Axios for API calls with proper error handling and loading states.
+Validate inputs before sending (e.g., no empty username/password, email format check if included).
+Display API responses or error messages to the user.
+Use simple and clean CSS for layout.
+Organize the component so that the API URL is configurable via an environment variable.
+Add comments explaining the logic for each CRUD operation.
+
+
+
